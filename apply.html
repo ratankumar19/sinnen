@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Sinnen Education </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="keywords" content="htmlcss bootstrap, multi level menu, submenu, treeview nav menu examples" />
+  <meta name="description" content="Bootstrap 5 navbar multilevel treeview examples for any type of project, Bootstrap 5" />  
+  <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/aos.css">
+  <link href="css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="css/style1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
+
+
+
+
+<style type="text/css">
+
+
+
+#status {
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  padding: 50px;
+  margin: 50px;
+  border-radius: 8px;
+}
+#status.success {
+  background-color: rgb(211, 250, 153);
+  animation: status 4s ease forwards;
+}
+#status.error {
+  background-color: rgb(250, 129, 92);
+  color: white;
+
+  animation: status 4s ease forwards;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+
+</style>
+ <script src="main.js"></script> 
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+
+    <div class="py-2 bg-light ">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-9 d-none d-lg-block">
+             <a href="#" class="small mr-3 text-primary"><span class="icon-question-circle-o mr-2 "></span> Have a questions?</a> 
+            <a href="#" class="small mr-3 text-primary"><span class="icon-phone2 mr-2"></span> +91 91228 32223</a> 
+          </div>
+          <div class="col-lg-3 text-right social-wrap">
+            <a href="https://www.facebook.com/sinneneducation/"><span class="icon-facebook"></span></a>
+              <a href="mailto:ratankumar086@gmail.com"><span class="icon-envelope-o mr-2 "></span></a>
+              <a href="https://wa.me/message/GQTCTMPJBYMDN1"><span class="icon-whatsapp"></span></a>
+             
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="d-flex align-items-center">
+          <div class="site-logo">
+            <a href="index.html" class="d-block">
+              <img src="images/logo2.png" alt="Image" class="img-fluid" style="width: 180px; height: 60px;">
+            </a>
+          </div>
+          <div class="ml-auto">
+   <nav class="navbar navbar-expand-lg navbar-light bg-muted">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item active font-weight-bold">
+        <strong><a class="nav-link text-uppercase"href="index.html">Home <span class="sr-only"></span></a></strong>  
+      </li>
+     
+      <li class="nav-item dropdown font-weight-bold">
+                <strong><a class="nav-link dropdown-toggle text-uppercase" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> University</a></strong>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    
+                    <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="http://google.com">Medical University</a><div class="dropdown-divider"></div>
+                        <ul class="dropdown-menu scrollable-menu">
+                           
+                        <li><a class="dropdown-item" href="mbbs-russia.html">Universities in Russia</a></li><div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item" href="mbbs-ukraine.html">Universities in Ukraine</a></li><div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item" href="mbbs-kyrgyzstan.html">Universities in Kyrgyzstan </a></li><div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item" href="mbbs-china.html">Universities in China</a></li><div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item"href="mbbs-bangladesh.html">Universities in Bangladesh</a></li><div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item"href="mbbs-barbados.html">Universities in Barbados</a></li><div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item"href="mbbs-georgia.html">Universities in Georgia</a></li><div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item" href="mbbs-philippines.html">Universities in Philippines</a></li><div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item"href="mbbs-guyana.html">Universities in Guyana</a></li><div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item"href="mbbs-caribbeanislands.html">Universities in Caribbean Islands</a></li><div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item"href="mbbs-armenia.html">Universities in Armenia</a></li><div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item"href="mbbs-belarus.html">Universities in Belarus</a></li><div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item"href="mbbs-kazakhstan.html">Universities in Kazakhstan</a></li>
+                       
+                           
+                        </ul>
+                    </li>
+
+                       <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="http://google.com">Engineering University</a>
+                        <ul class="dropdown-menu scrollable-menu">
+                           
+                      <li><a class="dropdown-item"href="russian-technological-university.html">Russian Technological University</a></li><div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item"href="national-university-of-science-and-technology.html">National University of Science and Technology MISIS</a></li><div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item"href="national-research-tomsk-polytechnic-university.html">National Research Tomsk Polytechnic University</a></li><div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item"href="moscow-institute-of-physics-and-technology.html">Moscow Institute of Physics and Technology</a></li><div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item"href="gubki-russian-state university .html">Gubkin Russian State University of Oil and Gas</a></li><div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item"href="north-caucasus-federal-university.html">North-Caucasus Federal University</a></li><div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item"href="peter-the-great.html">Peter the Great St.Petersburg Polytechnic University</a></li><div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item"href="kalmyk-state-university.html">Kalmyk State University</a></li><div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item"href="southern-federal-university.html">Southern Federal University</a></li><div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item"href="south-ural-state-university.html">South Ural State University</a></li><div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item"href="ufa-state-petroleum.html">Ufa State Petroleum Technological University</a></li><div class="dropdown-divider"></div>
+
+
+              
+                       
+                           
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+      
+
+
+   
+      <li class="nav-item active  font-weight-bold">
+        <strong><a class="nav-link  text-uppercase " href="gallery.html">Gallery</a></strong>
+      </li>
+      <li class="nav-item active  font-weight-bold">
+        <strong><a class="nav-link text-uppercase" href="about.html">About Us</a></strong>
+      </li>
+      <li class="nav-item active  font-weight-bold">
+        <strong><a class="nav-link text-uppercase" href="contact.html"><span>Contact Us &nbsp;&nbsp;</span> </a></strong>
+      </li>
+    </ul>
+     <a href="apply.html"><input class="btn btn-warning btn-lg text-uppercase text-white" type="button" value="Apply Now"></a>
+  </div>
+</nav>
+         
+        </div>
+      </div>
+
+    </header>
+
+
+    
+    <div class="site-section ftco-subscribe-1 site-blocks-cover pb-4" style="background-image: url('images/bg_1.jpg')">
+        <div class="container">
+          <div class="row align-items-end">
+            <div class="col-lg-7">
+              <h2 class="mb-0 text-uppercase">Apply Now </h2>
+              <p>Your are one step away from regestration</p>
+            </div>
+          </div>
+        </div>
+      </div> 
+    
+
+    <div class="custom-breadcrumns border-bottom">
+      <div class="container">
+        <a href="index.html">Home</a>
+        <span class="mx-3 icon-keyboard_arrow_right"></span>
+        <span class="current">Apply Now</span>
+      </div>
+    </div>
+
+    <div class="site-section">
+        <div class="container">
+      
+      <section class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4 text-uppercase text-decoration-underline zoom">Registration-form</h2>
+    <!--Section description-->
+    <h4 class="text-center w-responsive mx-auto mb-5" style="color:red"> 
+All we ask for is registration, just like we do for cars.
+</h4>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form action="https://formspree.io/f/mknkvjpl" method="POST" id="my-form">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-8">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control" required placeholder="Your name">
+                           
+                        </div>
+                    </div>
+                    <!--Grid column-->
+                </div><br>
+                    <!--Grid column-->
+                     <div class="row">
+                    <div class="col-md-8">
+                        <div class="md-form mb-0">
+                            <input type="email" id="email" name="email" class="form-control" required placeholder="Your email">
+                           
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div><br>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control" required placeholder="Subject">
+                            
+                        </div>
+                    </div>
+                  </div><br>
+                     <div class="row">
+                     <div class="col-md-8">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" maxlength="10" name="mobile" class="form-control" required placeholder="Contact No.">
+                           
+                        </div>
+                    </div>
+                </div><br>
+                <div class="row">
+                     <div class="col-md-8">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" maxlength="10" name="mobile" class="form-control" required placeholder="City">
+                           
+                        </div>
+                    </div>
+                </div><br>
+           
+                <br>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+
+                    <div class="col-md-6">
+                  <select class="btn btn-secondary dropdown-toggle" type="button" name="courses" required=""> 
+                       <option value="Medical">Medical</option>
+                  
+                     <option value="Engineering">Enginerring</option>    
+    
+                   </select>
+
+                    </div>
+                         <div class="col-md-6">
+                  <select style="width: 120px;"class="btn btn-secondary dropdown-toggle" type="button" name="country" required=""> 
+                    
+<option value="Afghanistan">Afghanistan</option>
+<option value="Albania">Albania</option>
+<option value="Algeria">Algeria</option>
+<option value="American Samoa">American Samoa</option>
+<option value="Andorra">Andorra</option>
+<option value="Angola">Angola</option>
+<option value="Anguilla">Anguilla</option>
+<option value="Antartica">Antarctica</option>
+<option value="Antigua and Barbuda">Antigua and Barbuda</option>
+<option value="Argentina">Argentina</option>
+<option value="Armenia">Armenia</option>
+<option value="Aruba">Aruba</option>
+<option value="Australia">Australia</option>
+<option value="Austria">Austria</option>
+<option value="Azerbaijan">Azerbaijan</option>
+<option value="Bahamas">Bahamas</option>
+<option value="Bahrain">Bahrain</option>
+<option value="Bangladesh">Bangladesh</option>
+<option value="Barbados">Barbados</option>
+<option value="Belarus">Belarus</option>
+<option value="Belgium">Belgium</option>
+<option value="Belize">Belize</option>
+<option value="Benin">Benin</option>
+<option value="Bermuda">Bermuda</option>
+<option value="Bhutan">Bhutan</option>
+<option value="Bolivia">Bolivia</option>
+<option value="Bosnia and Herzegowina">Bosnia and Herzegowina</option>
+<option value="Botswana">Botswana</option>
+<option value="Bouvet Island">Bouvet Island</option>
+<option value="Brazil">Brazil</option>
+<option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+<option value="Brunei Darussalam">Brunei Darussalam</option>
+<option value="Bulgaria">Bulgaria</option>
+<option value="Burkina Faso">Burkina Faso</option>
+<option value="Burundi">Burundi</option>
+<option value="Cambodia">Cambodia</option>
+<option value="Cameroon">Cameroon</option>
+<option value="Canada">Canada</option>
+<option value="Cape Verde">Cape Verde</option>
+<option value="Cayman Islands">Cayman Islands</option>
+<option value="Central African Republic">Central African Republic</option>
+<option value="Chad">Chad</option>
+<option value="Chile">Chile</option>
+<option value="China">China</option>
+<option value="Christmas Island">Christmas Island</option>
+<option value="Cocos Islands">Cocos (Keeling) Islands</option>
+<option value="Colombia">Colombia</option>
+<option value="Comoros">Comoros</option>
+<option value="Congo">Congo</option>
+<option value="Congo">Congo, the Democratic Republic of the</option>
+<option value="Cook Islands">Cook Islands</option>
+<option value="Costa Rica">Costa Rica</option>
+<option value="Cota D'Ivoire">Cote d'Ivoire</option>
+<option value="Croatia">Croatia (Hrvatska)</option>
+<option value="Cuba">Cuba</option>
+<option value="Cyprus">Cyprus</option>
+<option value="Czech Republic">Czech Republic</option>
+<option value="Denmark">Denmark</option>
+<option value="Djibouti">Djibouti</option>
+<option value="Dominica">Dominica</option>
+<option value="Dominican Republic">Dominican Republic</option>
+<option value="East Timor">East Timor</option>
+<option value="Ecuador">Ecuador</option>
+<option value="Egypt">Egypt</option>
+<option value="El Salvador">El Salvador</option>
+<option value="Equatorial Guinea">Equatorial Guinea</option>
+<option value="Eritrea">Eritrea</option>
+<option value="Estonia">Estonia</option>
+<option value="Ethiopia">Ethiopia</option>
+<option value="Falkland Islands">Falkland Islands (Malvinas)</option>
+<option value="Faroe Islands">Faroe Islands</option>
+<option value="Fiji">Fiji</option>
+<option value="Finland">Finland</option>
+<option value="France">France</option>
+<option value="France Metropolitan">France, Metropolitan</option>
+<option value="French Guiana">French Guiana</option>
+<option value="French Polynesia">French Polynesia</option>
+<option value="French Southern Territories">French Southern Territories</option>
+<option value="Gabon">Gabon</option>
+<option value="Gambia">Gambia</option>
+<option value="Georgia">Georgia</option>
+<option value="Germany">Germany</option>
+<option value="Ghana">Ghana</option>
+<option value="Gibraltar">Gibraltar</option>
+<option value="Greece">Greece</option>
+<option value="Greenland">Greenland</option>
+<option value="Grenada">Grenada</option>
+<option value="Guadeloupe">Guadeloupe</option>
+<option value="Guam">Guam</option>
+<option value="Guatemala">Guatemala</option>
+<option value="Guinea">Guinea</option>
+<option value="Guinea-Bissau">Guinea-Bissau</option>
+<option value="Guyana">Guyana</option>
+<option value="Haiti">Haiti</option>
+<option value="Heard and McDonald Islands">Heard and Mc Donald Islands</option>
+<option value="Holy See">Holy See (Vatican City State)</option>
+<option value="Honduras">Honduras</option>
+<option value="Hong Kong">Hong Kong</option>
+<option value="Hungary">Hungary</option>
+<option value="Iceland">Iceland</option>
+<option value="India">India</option>
+<option value="Indonesia">Indonesia</option>
+<option value="Iran">Iran (Islamic Republic of)</option>
+<option value="Iraq">Iraq</option>
+<option value="Ireland">Ireland</option>
+<option value="Israel">Israel</option>
+<option value="Italy">Italy</option>
+<option value="Jamaica">Jamaica</option>
+<option value="Japan">Japan</option>
+<option value="Jordan">Jordan</option>
+<option value="Kazakhstan">Kazakhstan</option>
+<option value="Kenya">Kenya</option>
+<option value="Kiribati">Kiribati</option>
+<option value="Democratic People's Republic of Korea">Korea, Democratic People's Republic of</option>
+<option value="Korea">Korea, Republic of</option>
+<option value="Kuwait">Kuwait</option>
+<option value="Kyrgyzstan">Kyrgyzstan</option>
+<option value="Lao">Lao People's Democratic Republic</option>
+<option value="Latvia">Latvia</option>
+<option value="Lebanon" selected>Lebanon</option>
+<option value="Lesotho">Lesotho</option>
+<option value="Liberia">Liberia</option>
+<option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
+<option value="Liechtenstein">Liechtenstein</option>
+<option value="Lithuania">Lithuania</option>
+<option value="Luxembourg">Luxembourg</option>
+<option value="Macau">Macau</option>
+<option value="Macedonia">Macedonia, The Former Yugoslav Republic of</option>
+<option value="Madagascar">Madagascar</option>
+<option value="Malawi">Malawi</option>
+<option value="Malaysia">Malaysia</option>
+<option value="Maldives">Maldives</option>
+<option value="Mali">Mali</option>
+<option value="Malta">Malta</option>
+<option value="Marshall Islands">Marshall Islands</option>
+<option value="Martinique">Martinique</option>
+<option value="Mauritania">Mauritania</option>
+<option value="Mauritius">Mauritius</option>
+<option value="Mayotte">Mayotte</option>
+<option value="Mexico">Mexico</option>
+<option value="Micronesia">Micronesia, Federated States of</option>
+<option value="Moldova">Moldova, Republic of</option>
+<option value="Monaco">Monaco</option>
+<option value="Mongolia">Mongolia</option>
+<option value="Montserrat">Montserrat</option>
+<option value="Morocco">Morocco</option>
+<option value="Mozambique">Mozambique</option>
+<option value="Myanmar">Myanmar</option>
+<option value="Namibia">Namibia</option>
+<option value="Nauru">Nauru</option>
+<option value="Nepal">Nepal</option>
+<option value="Netherlands">Netherlands</option>
+<option value="Netherlands Antilles">Netherlands Antilles</option>
+<option value="New Caledonia">New Caledonia</option>
+<option value="New Zealand">New Zealand</option>
+<option value="Nicaragua">Nicaragua</option>
+<option value="Niger">Niger</option>
+<option value="Nigeria">Nigeria</option>
+<option value="Niue">Niue</option>
+<option value="Norfolk Island">Norfolk Island</option>
+<option value="Northern Mariana Islands">Northern Mariana Islands</option>
+<option value="Norway">Norway</option>
+<option value="Oman">Oman</option>
+<option value="Pakistan">Pakistan</option>
+<option value="Palau">Palau</option>
+<option value="Panama">Panama</option>
+<option value="Papua New Guinea">Papua New Guinea</option>
+<option value="Paraguay">Paraguay</option>
+<option value="Peru">Peru</option>
+<option value="Philippines">Philippines</option>
+<option value="Pitcairn">Pitcairn</option>
+<option value="Poland">Poland</option>
+<option value="Portugal">Portugal</option>
+<option value="Puerto Rico">Puerto Rico</option>
+<option value="Qatar">Qatar</option>
+<option value="Reunion">Reunion</option>
+<option value="Romania">Romania</option>
+<option value="Russia">Russian Federation</option>
+<option value="Rwanda">Rwanda</option>
+<option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option> 
+<option value="Saint LUCIA">Saint LUCIA</option>
+<option value="Saint Vincent">Saint Vincent and the Grenadines</option>
+<option value="Samoa">Samoa</option>
+<option value="San Marino">San Marino</option>
+<option value="Sao Tome and Principe">Sao Tome and Principe</option> 
+<option value="Saudi Arabia">Saudi Arabia</option>
+<option value="Senegal">Senegal</option>
+<option value="Seychelles">Seychelles</option>
+<option value="Sierra">Sierra Leone</option>
+<option value="Singapore">Singapore</option>
+<option value="Slovakia">Slovakia (Slovak Republic)</option>
+<option value="Slovenia">Slovenia</option>
+<option value="Solomon Islands">Solomon Islands</option>
+<option value="Somalia">Somalia</option>
+<option value="South Africa">South Africa</option>
+<option value="South Georgia">South Georgia and the South Sandwich Islands</option>
+<option value="Span">Spain</option>
+<option value="SriLanka">Sri Lanka</option>
+<option value="St. Helena">St. Helena</option>
+<option value="St. Pierre and Miguelon">St. Pierre and Miquelon</option>
+<option value="Sudan">Sudan</option>
+<option value="Suriname">Suriname</option>
+<option value="Svalbard">Svalbard and Jan Mayen Islands</option>
+<option value="Swaziland">Swaziland</option>
+<option value="Sweden">Sweden</option>
+<option value="Switzerland">Switzerland</option>
+<option value="Syria">Syrian Arab Republic</option>
+<option value="Taiwan">Taiwan, Province of China</option>
+<option value="Tajikistan">Tajikistan</option>
+<option value="Tanzania">Tanzania, United Republic of</option>
+<option value="Thailand">Thailand</option>
+<option value="Togo">Togo</option>
+<option value="Tokelau">Tokelau</option>
+<option value="Tonga">Tonga</option>
+<option value="Trinidad and Tobago">Trinidad and Tobago</option>
+<option value="Tunisia">Tunisia</option>
+<option value="Turkey">Turkey</option>
+<option value="Turkmenistan">Turkmenistan</option>
+<option value="Turks and Caicos">Turks and Caicos Islands</option>
+<option value="Tuvalu">Tuvalu</option>
+<option value="Uganda">Uganda</option>
+<option value="Ukraine">Ukraine</option>
+<option value="United Arab Emirates">United Arab Emirates</option>
+<option value="United Kingdom">United Kingdom</option>
+<option value="United States">United States</option>
+<option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+<option value="Uruguay">Uruguay</option>
+<option value="Uzbekistan">Uzbekistan</option>
+<option value="Vanuatu">Vanuatu</option>
+<option value="Venezuela">Venezuela</option>
+<option value="Vietnam">Viet Nam</option>
+<option value="Virgin Islands (British)">Virgin Islands (British)</option>
+<option value="Virgin Islands (U.S)">Virgin Islands (U.S.)</option>
+<option value="Wallis and Futana Islands">Wallis and Futuna Islands</option>
+<option value="Western Sahara">Western Sahara</option>
+<option value="Yemen">Yemen</option>
+<option value="Serbia">Serbia</option>
+<option value="Zambia">Zambia</option>
+<option value="Zimbabwe">Zimbabwe</option>
+</select>
+
+
+                    </div>
+                </div>
+                <!--Grid row-->
+                <br><br><br>
+                <div class="row">
+               <div class="col-md-8">
+                  <input class="btn btn-danger btn-lg btn-block" type="submit" value="Submit"></a>
+               
+              
+                  </div>             
+            </div>
+            </form>
+
+
+
+            <!--Grid column-->
+         <div id="status"></div>  
+           
+        </div>
+
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>3rd floor, 1-CH-16,Dadabari <br>Kota, Rajasthan 324009</p>
+                    <a href="https://www.google.co.in/maps/place/SINNEN+EDUCATION/@25.1583925,75.8304121,17z/data=!3m1!4b1!4m5!3m4!1s0x396f85c1a845ac9f:0x85becd285d082df3!8m2!3d25.1584014!4d75.8325999">View On Map</a>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>+ 91- 9122832223</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>contact@sinneducation.com</p>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+        <!--Grid column-->
+        
+    </div>
+ 
+</section>
+<!--Section: Contact v.2-->
+<!--Section: Contact v.2-->
+<!-- Section: Contact v.1 --><!--Section: Contact v.2-->
+        </div>
+    </div>
+
+      <div class="site-section ftco-subscribe-1" style="background-image: url('images/bg_1.jpg')">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7">
+            <h2>Subscribe to us!</h2>
+            <p>
+For MBBS Admission in Abroad & India</p>
+          </div>
+          
+        </div>
+      </div>
+    </div> 
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <p class="mb-4"><img src="images/logo2.png" alt="Image" class="img-fluid" style="width:200px ;height: 70px;"></p>
+            SINNEN EDUCATION has the vision of turning your Dream into reality.Dont worry we are here to help you.
+           
+          </div>
+          
+           <div class="col-lg-5">
+              <h3 class="footer-heading"><span>Contact</span></h3>
+              <ul class="list-unstyled">
+                  <li><span class="icon-location-arrow mr-2"> </span>  3rd floor, 1-CH-16, Opposite Brijwasi Kachori, Dadabari <br>Kota, Rajasthan 324009</li><br>
+                  <li><span class="icon-phone2 mr-2"></span> +91 91228 32223</li>
+                  <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +91 85400 17332 </li><br>
+                    <li><a class="footer-heading"href="mailto:ratankumar086@gmail.com"><span class="icon-envelope-o mr-2"></span> info@sinneneducation.com</a></li>
+                  
+              </ul>
+          </div>
+          <div class="col-lg-3">
+              <h3 class="footer-heading"><span>Social Media</span></h3>
+              <ul class="list-unstyled">
+              <li ><a class="footer-heading" href="https://www.facebook.com/sinneneducation/"><span class="icon-facebook">&nbsp;Facebook</span></a></li>
+              <li ><a class="footer-heading" href="#"><span class="icon-instagram"></span>&nbsp;Instagram</a></li>
+              <li ><a class="footer-heading" href="https://wa.me/message/GQTCTMPJBYMDN1"><span class="icon-whatsapp"></span>&nbsp;whatsapp</a></li>
+              <li ><a class="footer-heading" href="#"><span class="icon-twitter"></span>&nbsp;Twitter</a></li>
+              <li ><a class="footer-heading" href="#"><span class="icon-linkedin"></span>&nbsp;Linkdin  </a></li>
+
+              </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <div class="copyright">
+                <strong>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> SINNEN EDUCATION LLP
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+  </div>
+  <!-- .site-wrap -->
+
+
+  <!-- loader -->
+  <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#51be78"/></svg></div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/jquery.mb.YTPlayer.min.js"></script>
+   
+<!--bs4-->
+
+
+<script src="js/main.js">
+$(document).ready(function(){
+  $('.dropdown-submenu a.test').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
+<script type="text/javascript" src="MD5/js/mdb.min.js"></script>
+ <script type="text/javascript"></script>
+
+</body>
+
+</html>

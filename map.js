@@ -1,0 +1,2 @@
+
+<iframe scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=3rd%20Floor,1-CH-16,Opposite%20to%20Birjwasi%20Kachori,Dadabari%20Kota+(Kota,Rajasthan%20324009)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="520" height="400" frameborder="0"></iframe> <a href='https://www.add-map.net/'>add a google map to my website</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=0029bf65ed180839aa8968b84fabfe5d26bf5cc6'></script>
